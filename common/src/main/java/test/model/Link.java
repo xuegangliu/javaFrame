@@ -1,4 +1,4 @@
-package com.lxg.test.model;
+package test.model;
 
 public class Link {
     /**

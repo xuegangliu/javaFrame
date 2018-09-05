@@ -1,6 +1,6 @@
-package com.lxg.test.mapper;
+package test.mapper;
 
-import com.lxg.test.model.Link;
+import test.model.Link;
 
 public interface LinkMapper {
     /**
