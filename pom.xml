@@ -12,6 +12,8 @@
         <module>common</module>
         <module>hessionApi</module>
         <module>hessionSer</module>
+        <module>dubboCli</module>
+        <module>dubbboSer</module>
     </modules>
 
     <packaging>pom</packaging>
