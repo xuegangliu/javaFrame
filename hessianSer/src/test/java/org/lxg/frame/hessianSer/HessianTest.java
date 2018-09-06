@@ -1,4 +1,4 @@
-package org.lxg.frame.dubboCli;
+package org.lxg.frame.hessianSer;
 
 import com.caucho.hessian.client.HessianProxyFactory;
 import org.junit.Test;

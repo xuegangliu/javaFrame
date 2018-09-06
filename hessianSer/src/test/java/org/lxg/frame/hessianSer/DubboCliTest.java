@@ -1,4 +1,4 @@
-package org.lxg.frame.dubboCli;
+package org.lxg.frame.hessianSer;
 
 import org.junit.Test;
 import org.lxg.frame.api.dubboApi.SayHelloToClient;

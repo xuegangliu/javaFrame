@@ -12,7 +12,7 @@
     <artifactId>hessianSer</artifactId>
     <packaging>war</packaging>
 
-    <name>hessian</name>
+    <name>hessianSer</name>
     <url>http://www.example.com</url>
 
     <properties>

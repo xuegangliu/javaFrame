@@ -20,7 +20,7 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
             <param-name>home-class</param-name>
             <!-- 服务实现类 -->
             <param-value>
-                org.lxg.frame.dubboCli.HelloApiServiceImpl
+                org.lxg.frame.hessianSer.HelloApiServiceImpl
             </param-value>
         </init-param>
 
