@@ -12,8 +12,8 @@
     <artifactId>hessionSer</artifactId>
     <packaging>war</packaging>
 
-    <name>hessionSer Maven Webapp</name>
-    <url>http://www.example.com</url>
+    <name>hessionSer</name>
+    <description>hessionSer</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

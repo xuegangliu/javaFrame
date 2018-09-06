@@ -11,6 +11,8 @@
 
     <artifactId>hessionApi</artifactId>
     <packaging>jar</packaging>
+    <name>hessionApi</name>
+    <description>hessionApi</description>
 
     <dependencies>
         <!-- 引入hessian依赖 -->
