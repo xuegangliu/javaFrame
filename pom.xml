@@ -11,9 +11,8 @@
     <modules>
         <module>common</module>
         <module>api</module>
-        <module>hessionSer</module>
-        <module>dubboCli</module>
-        <module>dubbboSer</module>
+        <module>hessianSer</module>
+        <module>dubboSer</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -26,6 +25,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>3.0-alpha-1</version>
+        </dependency>
     </dependencies>
     <build>
         <!--<finalName>javaFrame</finalName>-->

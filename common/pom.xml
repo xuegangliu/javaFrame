@@ -31,7 +31,6 @@
     </dependencies>
     <build>
         <!-- 这里指定最终生成的jar包的名字,为了盗版到底,直接使用原先的名称,嘿嘿 -->
-        <!--<finalName>mybatis-generator-core-1.3.2</finalName>-->
         <plugins>
             <plugin>
                 <!-- 因为项目中使用了依赖包,所以要使用maven-assembly-plugin来构建,会把依赖包同时打进jar包中 -->
