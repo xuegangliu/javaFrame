@@ -1,8 +1,8 @@
 package org.lxg.frame.hessionSer.service;
 
 import com.caucho.hessian.server.HessianServlet;
-import org.lxg.frame.hessionApi.api.HelloApi;
-import org.lxg.frame.hessionApi.bean.User;
+import org.lxg.frame.api.bean.User;
+import org.lxg.frame.api.hessionApi.HelloApi;
 
 /**
  * Created by 刘雪岗 on 2017/2/27.

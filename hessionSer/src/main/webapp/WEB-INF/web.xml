@@ -28,7 +28,7 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
       <param-name>home-api</param-name>
       <!-- 服务接口 -->
       <param-value>
-        org.lxg.frame.hessionApi.api.HelloApi
+        org.lxg.frame.api.hessionApi.HelloApi
       </param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>

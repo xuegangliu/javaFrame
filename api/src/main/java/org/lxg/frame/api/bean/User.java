@@ -1,4 +1,4 @@
-package org.lxg.frame.hessionApi.bean;
+package org.lxg.frame.api.bean;
 
 import java.io.Serializable;
 

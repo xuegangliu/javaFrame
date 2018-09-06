@@ -2,8 +2,8 @@ package org.lxg.frame.hessionSer;
 
 import com.caucho.hessian.client.HessianProxyFactory;
 import org.junit.Test;
-import org.lxg.frame.hessionApi.api.HelloApi;
-import org.lxg.frame.hessionApi.bean.User;
+import org.lxg.frame.api.bean.User;
+import org.lxg.frame.api.hessionApi.HelloApi;
 
 import java.net.MalformedURLException;
 import java.util.HashMap;
@@ -26,7 +26,7 @@ public class HessianClientTest {
     @Test//(timeout = 2000)
     public void testService4Success() throws MalformedURLException {
 
-        String url = "http://localhost:8080/hessionDemo/hessian";
+        String url = "http://localhost:8080/hessian";
         System.out.println("请求的服务端地址：" + url);
 
         HessianProxyFactory factory = new HessianProxyFactory();

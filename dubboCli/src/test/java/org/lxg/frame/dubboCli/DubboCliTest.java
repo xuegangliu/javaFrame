@@ -1,13 +1,19 @@
-package org.lxg.frame.dubboCli.client;
+package org.lxg.frame.dubboCli;
 
+import org.junit.Test;
 import org.lxg.frame.api.dubboApi.SayHelloToClient;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by 刘雪岗 on 2017/2/27.
+ * @author: xuegangliu
+ * @date: 9/6/2018 12:50 PM
+ * @DES:
+ * @version: v1.0
  */
-public class MyClient {
-    public void sayHello(){
+public class DubboCliTest {
+
+    @Test
+    public void dubboClientTest(){
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 new String[] { "applicationConsumer.xml" });
 
@@ -19,4 +25,3 @@ public class MyClient {
         System.out.println(demoService.sayHello("xxxx"));
     }
 }
-
