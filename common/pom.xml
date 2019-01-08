@@ -34,17 +34,17 @@
     <build>
         <!-- 这里指定最终生成的jar包的名字,为了盗版到底,直接使用原先的名称,嘿嘿 -->
         <plugins>
-            <plugin>
-                <!-- 因为项目中使用了依赖包,所以要使用maven-assembly-plugin来构建,会把依赖包同时打进jar包中 -->
+            <!--<plugin>
+                &lt;!&ndash; 因为项目中使用了依赖包,所以要使用maven-assembly-plugin来构建,会把依赖包同时打进jar包中 &ndash;&gt;
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>2.6</version>
                 <configuration>
-                    <!-- 这里不指定为false打包会生成两个jar包,我们要用的那个jar包命名很乱,后面加了
-                    jar-with-dependencies,不喜欢,直接禁用掉 -->
+                    &lt;!&ndash; 这里不指定为false打包会生成两个jar包,我们要用的那个jar包命名很乱,后面加了
+                    jar-with-dependencies,不喜欢,直接禁用掉 &ndash;&gt;
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <!-- 指定main方法的类的全路径  否则运行会报找不到main class的错误-->
+                            &lt;!&ndash; 指定main方法的类的全路径  否则运行会报找不到main class的错误&ndash;&gt;
                             <mainClass>org.mybatis.generator.StartUp</mainClass>
                         </manifest>
                     </archive>
@@ -61,7 +61,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
