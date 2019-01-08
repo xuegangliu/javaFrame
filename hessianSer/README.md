@@ -1,3 +1,3 @@
 # hessianSer
 
-hessian服务
+hessian服务,dubbo客户端

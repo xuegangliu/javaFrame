@@ -3,9 +3,9 @@ language: java
 sudo: false
 jdk:
   - oraclejdk8
-notifications:
-  email:
-    recipients:
-        - 1453860636@qq.com
-    on_success: change
-    on_failure: always
+#notifications:
+#  email:
+#    recipients:
+#        - 1453860636@qq.com
+#    on_success: change
+#    on_failure: always
