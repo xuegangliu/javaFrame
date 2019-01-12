@@ -7,7 +7,9 @@
 *.iml
 out
 gen### Eclipse template
-
+*.jar
+.idea/
+target/
 .metadata
 bin/
 tmp/

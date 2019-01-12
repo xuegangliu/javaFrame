@@ -1,0 +1,26 @@
+package test;
+
+import org.lxg.frame.doorls.bean.User;
+import org.lxg.frame.doorls.util.CommUtils;
+
+// 规则1 状态是1的，打印此人信息
+rule "TestRule1"
+    when
+        u : User(status==1, myName : name ,myAge:age,MySex:sex,myBir:birthday)
+    then
+        System.out.println(u.toString());
+        u.setStatus(2);
+        CommUtils.printNowData();
+        update(u);
+end
+
+// 规则2 状态是2 姓名小明
+rule "TestRule2"
+    when
+        u:User(status==1, name=="小明")
+    then
+        System.out.println(u.toString());
+        u.setName("小红");
+        CommUtils.printNowData();
+        update(u);
+end

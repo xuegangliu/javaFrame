@@ -9,3 +9,6 @@ jdk:
 #        - 1453860636@qq.com
 #    on_success: change
 #    on_failure: always
+branches:
+  only:
+    - master
